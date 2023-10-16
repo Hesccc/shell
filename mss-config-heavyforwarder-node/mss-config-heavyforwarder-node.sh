@@ -197,8 +197,8 @@ $SPLUNK_INSTALL_DIR/splunk/bin/splunk start --accept-license --answer-yes --auto
 # 设置splunk开机自启动 \n
 $SPLUNK_INSTALL_DIR/splunk/bin/splunk enable boot-start \n
 "
-    # Set the Splunk admin password, ECCOM universal password is "Eccom@123"
-    SPLUNK_HF_ADMIN_PWD="Eccom@123"
+    # Set the Splunk admin password, xxxxx universal password is "xxxxx@123"
+    SPLUNK_HF_ADMIN_PWD="xxxxx@123"
     
     # Check Splunk Service status
     # 判断 SPLUNK_HF_PID_STATUS 检测字符串长度, 不为0 -> true 为0 -> false

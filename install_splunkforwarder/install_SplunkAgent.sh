@@ -8,7 +8,7 @@
 # Describe : 9.1.1版本使用systemct进行管理，调整设置开机自启动顺序
 
 # 公共区DS服务器IP地址
-DS_IP="10.1.22.127"
+DS_IP="10.1.22.xxx"
 
 # SPLUNKFORWARDER_URL="http://$IP/splunk/splunkforwarder-9.1.1-64e843ea36b1-Linux-x86_64.tgz"
 # FORWARDER_MANAGE_PORT_URL="http://$IP/splunk/org_all_forwarder_manageport.tgz"  # forwarder_manageport 设置agent管理端口为29768

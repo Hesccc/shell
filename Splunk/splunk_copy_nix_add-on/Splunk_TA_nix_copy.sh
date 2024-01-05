@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#date：2020-5-20 10:52:39
+#date：2020/05/20 10:52:39
 #author：hesc
 
 export SPLUNK_PATH="/opt/splunk/etc/deployment-apps"

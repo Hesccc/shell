@@ -1,0 +1,257 @@
+INFO: Your timerange was substituted based on your search string
+2020-02-20 12:29:59 license status:
+2020-02-20 12:30:47 ready to check the license
+reason="Search not executed: The maximum number of concurrent historical searches on this instance have been reached.", concurrency_category="historical", concurrency_context="instance-wide", current_concurrency=10, concurrency_limit=10
+2020-02-20 12:30:51 license status:
+2020-02-20 12:31:28 ready to check the license
+INFO: Your timerange was substituted based on your search string
+2020-02-20 12:31:40 license status:
+2020-02-21 04:00:01 ready to check the license
+INFO: Your timerange was substituted based on your search string
+2020-02-21 04:00:10 license status:
+2020-02-22 04:00:01 ready to check the license
+INFO: Your timerange was substituted based on your search string
+2020-02-22 04:00:14 license status:
+2020-02-23 04:00:01 ready to check the license
+INFO: Your timerange was substituted based on your search string
+2020-02-23 04:00:12 license status:
+2020-02-24 04:00:01 ready to check the license
+FATAL: Error in 'litsearch' command: Your Splunk license expired or you have exceeded your license limit too many times. Renew your Splunk license by visiting www.splunk.com/store or calling 866.GET.SPLUNK.
+2020-02-24 04:00:18 license status:
+2020-02-24 10:08:27 ready to check the license
+/root/scripts/schedule_clean.sh: line 34: return: license: numeric argument required
+2020-02-24 10:08:36 license status:
+2020-02-24 10:10:48 ready to check the license
+2020-02-24 10:10:48 license status:
+2020-02-24 10:11:24 ready to check the license
+2020-02-24 10:11:37 license status: license limit too many times
+2020-02-24 10:11:37 execute the license clean
+2020-02-24 10:11:38 SPLUNK_DATADIR: /opt/splunk/var/lib/splunk
+Stopping splunkd...
+Shutting down.  Please wait, as this may take a few minutes.
+ [  OK  ]
+Stopping splunk helpers...
+ [  OK  ]
+Done.
+
+Splunk> Finding your faults, just like mom.
+
+Checking prerequisites...
+	Checking http port [8000]: open
+	Checking mgmt port [8089]: open
+	Checking appserver port [127.0.0.1:8065]: open
+	Checking kvstore port [8191]: open
+	Checking configuration...  Done.
+	Checking critical directories...	Done
+	Checking indexes...
+		Validated: _audit _internal _introspection _telemetry _thefishbucket cim_modactions database docker fping fs history iis linux main mysql nginx prometheus prometheus_monitor redis summary tomcat web windows zabbix_docker zabbix_mysql zabbix_nginx zabbix_vcenter zabbix_windows zibbix
+	Done
+			Bad regex value: '(?<queries_in_queue>[\.\d]+) queries \in queue', of param: props.conf / [mysql:errorLog:mysqld_safe] / EXTRACT-queries_in_queue; why: unrecognized character follows \
+		One or more regexes in your configuration are not valid. For details, please see btool.log or directly above.
+	Checking filesystem compatibility...  Done
+	Checking conf files for problems...
+	Done
+	Checking default conf files for edits...
+	Validating installed files against hashes from '/opt/splunk/splunk-7.2.4-8a94541dcfac-linux-2.6-x86_64-manifest'
+ [  OK  ]
+	All installed files intact.
+	Done
+All preliminary checks passed.
+
+Starting splunk server daemon (splunkd)...  
+Done
+
+Waiting for web server at http://127.0.0.1:8000 to be available............................................................................... Done
+
+
+If you get stuck, we're here to help.  
+Look for answers here: http://docs.splunk.com
+
+The Splunk web interface is at http://Splunk_Core_02:8000
+
+2020-02-25 04:00:01 ready to check the license
+2020-02-25 04:00:19 license status:
+2020-02-26 04:00:01 ready to check the license
+2020-02-26 04:00:16 license status:
+2020-02-27 04:00:01 ready to check the license
+2020-02-27 04:00:11 license status:
+2020-02-28 04:00:01 ready to check the license
+2020-02-28 04:00:12 license status:
+2020-02-29 04:00:01 ready to check the license
+2020-02-29 04:00:12 license status:
+2020-03-01 04:00:01 ready to check the license
+2020-03-01 04:00:14 license status: license limit too many times
+2020-03-01 04:00:14 execute the license clean
+2020-03-01 04:00:16 SPLUNK_DATADIR: /opt/splunk/var/lib/splunk
+Stopping splunkd...
+Shutting down.  Please wait, as this may take a few minutes.
+ [  OK  ]
+Stopping splunk helpers...
+ [  OK  ]
+Done.
+
+Splunk> Winning the War on Error
+
+Checking prerequisites...
+	Checking http port [8000]: open
+	Checking mgmt port [8089]: open
+	Checking appserver port [127.0.0.1:8065]: open
+	Checking kvstore port [8191]: open
+	Checking configuration...  Done.
+	Checking critical directories...	Done
+	Checking indexes...
+		Validated: _audit _internal _introspection _telemetry _thefishbucket cim_modactions database docker fping fs history iis k8s_fluentd_log k8s_node_log k8s_pod_log linux main mysql nginx prometheus prometheus_monitor redis summary tomcat web windows zabbix_docker zabbix_mysql zabbix_nginx zabbix_vcenter zabbix_windows zibbix
+	Done
+		Invalid key in stanza [192.168.1.245_mysql_status] in /opt/splunk/etc/apps/splunk_app_db_connect/local/db_inputs.conf, line 701: output_timestamp_format  (value:  YYYY-MM-dd HH:mm:ss).
+		Your indexes and inputs configurations are not internally consistent. For more information, run 'splunk btool check --debug'
+			Bad regex value: '(?<queries_in_queue>[\.\d]+) queries \in queue', of param: props.conf / [mysql:errorLog:mysqld_safe] / EXTRACT-queries_in_queue; why: unrecognized character follows \
+		One or more regexes in your configuration are not valid. For details, please see btool.log or directly above.
+	Checking filesystem compatibility...  Done
+	Checking conf files for problems...
+	Done
+	Checking default conf files for edits...
+	Validating installed files against hashes from '/opt/splunk/splunk-7.2.4-8a94541dcfac-linux-2.6-x86_64-manifest'
+ [  OK  ]
+	All installed files intact.
+	Done
+All preliminary checks passed.
+
+Starting splunk server daemon (splunkd)...  
+Done
+
+Waiting for web server at http://127.0.0.1:8000 to be available................................................................................................... Done
+
+
+If you get stuck, we're here to help.  
+Look for answers here: http://docs.splunk.com
+
+The Splunk web interface is at http://Splunk_Core_02:8000
+
+2020-03-02 04:00:01 ready to check the license
+2020-03-02 04:00:13 license status:
+2020-03-03 04:00:02 ready to check the license
+2020-03-03 04:00:12 license status:
+2020-03-04 04:00:01 ready to check the license
+2020-03-04 04:00:11 license status:
+2020-03-05 04:00:01 ready to check the license
+2020-03-05 04:00:18 license status:
+2020-03-06 04:00:01 ready to check the license
+2020-03-06 04:00:06 license status: license limit too many times
+2020-03-06 04:00:06 execute the license clean
+2020-03-06 04:00:08 SPLUNK_DATADIR: /opt/splunk/var/lib/splunk
+Stopping splunkd...
+Shutting down.  Please wait, as this may take a few minutes.
+ [  OK  ]
+Stopping splunk helpers...
+ [  OK  ]
+Done.
+
+Splunk> Be an IT superhero. Go home early.
+
+Checking prerequisites...
+	Checking http port [8000]: open
+	Checking mgmt port [8089]: open
+	Checking appserver port [127.0.0.1:8065]: open
+	Checking kvstore port [8191]: open
+	Checking configuration...  Done.
+	Checking critical directories...	Done
+	Checking indexes...
+		Validated: _audit _internal _introspection _telemetry _thefishbucket cim_modactions database docker fping fs history iis k8s_fluentd_log k8s_node_log k8s_pod_log linux main mysql nginx prometheus prometheus_monitor redis summary tomcat web windows zabbix_docker zabbix_mysql zabbix_nginx zabbix_vcenter zabbix_windows zibbix
+	Done
+		Invalid key in stanza [192.168.1.245_mysql_status] in /opt/splunk/etc/apps/splunk_app_db_connect/local/db_inputs.conf, line 701: output_timestamp_format  (value:  YYYY-MM-dd HH:mm:ss).
+		Your indexes and inputs configurations are not internally consistent. For more information, run 'splunk btool check --debug'
+			Bad regex value: '(?<queries_in_queue>[\.\d]+) queries \in queue', of param: props.conf / [mysql:errorLog:mysqld_safe] / EXTRACT-queries_in_queue; why: unrecognized character follows \
+		One or more regexes in your configuration are not valid. For details, please see btool.log or directly above.
+	Checking filesystem compatibility...  Done
+	Checking conf files for problems...
+	Done
+	Checking default conf files for edits...
+	Validating installed files against hashes from '/opt/splunk/splunk-7.2.4-8a94541dcfac-linux-2.6-x86_64-manifest'
+ [  OK  ]
+	All installed files intact.
+	Done
+All preliminary checks passed.
+
+Starting splunk server daemon (splunkd)...  
+Done
+
+Waiting for web server at http://127.0.0.1:8000 to be available.................................... Done
+
+
+If you get stuck, we're here to help.  
+Look for answers here: http://docs.splunk.com
+
+The Splunk web interface is at http://Splunk_Core_02:8000
+
+2020-03-07 04:00:01 ready to check the license
+2020-03-07 04:00:17 license status:
+2020-03-08 04:00:02 ready to check the license
+2020-03-08 04:00:14 license status:
+2020-03-09 04:00:02 ready to check the license
+2020-03-09 04:00:09 license status:
+2020-03-10 04:00:01 ready to check the license
+2020-03-10 04:00:06 license status:
+2020-03-11 04:00:01 ready to check the license
+2020-03-11 04:00:14 license status:
+2020-03-12 04:00:01 ready to check the license
+2020-03-12 04:00:13 license status:
+2020-03-13 04:00:01 ready to check the license
+2020-03-13 04:00:14 license status:
+2020-03-14 04:00:01 ready to check the license
+2020-03-14 04:00:16 license status: license limit too many times
+2020-03-14 04:00:16 execute the license clean
+2020-03-14 04:00:17 SPLUNK_DATADIR: /opt/splunk/var/lib/splunk
+Stopping splunkd...
+Shutting down.  Please wait, as this may take a few minutes.
+ [  OK  ]
+Stopping splunk helpers...
+ [  OK  ]
+Done.
+
+Splunk> See your world.  Maybe wish you hadn't.
+
+Checking prerequisites...
+	Checking http port [8000]: open
+	Checking mgmt port [8089]: open
+	Checking appserver port [127.0.0.1:8065]: open
+	Checking kvstore port [8191]: open
+	Checking configuration...  Done.
+	Checking critical directories...	Done
+	Checking indexes...
+		Validated: _audit _internal _introspection _telemetry _thefishbucket cim_modactions database docker fping fs history iis k8s_fluentd_log k8s_node_log k8s_pod_log linux main mysql nginx prometheus prometheus_filter redis summary tomcat web windows zabbix_docker zabbix_mysql zabbix_nginx zabbix_vcenter zabbix_windows zibbix
+	Done
+		Invalid key in stanza [192.168.1.245_mysql_status] in /opt/splunk/etc/apps/splunk_app_db_connect/local/db_inputs.conf, line 701: output_timestamp_format  (value:  YYYY-MM-dd HH:mm:ss).
+		Your indexes and inputs configurations are not internally consistent. For more information, run 'splunk btool check --debug'
+			Bad regex value: '(?<queries_in_queue>[\.\d]+) queries \in queue', of param: props.conf / [mysql:errorLog:mysqld_safe] / EXTRACT-queries_in_queue; why: unrecognized character follows \
+		One or more regexes in your configuration are not valid. For details, please see btool.log or directly above.
+	Checking filesystem compatibility...  Done
+	Checking conf files for problems...
+	Done
+	Checking default conf files for edits...
+	Validating installed files against hashes from '/opt/splunk/splunk-7.2.4-8a94541dcfac-linux-2.6-x86_64-manifest'
+ [  OK  ]
+	All installed files intact.
+	Done
+All preliminary checks passed.
+
+Starting splunk server daemon (splunkd)...  
+Done
+
+Waiting for web server at http://127.0.0.1:8000 to be available.............................................................................................................................. Done
+
+
+If you get stuck, we're here to help.  
+Look for answers here: http://docs.splunk.com
+
+The Splunk web interface is at http://Splunk_Core_02:8000
+
+2020-03-15 04:00:01 ready to check the license
+2020-03-15 04:00:18 license status:
+2020-03-16 04:00:01 ready to check the license
+2020-03-16 04:00:11 license status:
+2020-03-17 04:00:01 ready to check the license
+2020-03-17 04:00:21 license status:
+2020-03-18 04:00:01 ready to check the license
+2020-03-18 04:00:15 license status:
+2020-03-19 04:00:01 ready to check the license
+2020-03-19 04:00:10 license status:
